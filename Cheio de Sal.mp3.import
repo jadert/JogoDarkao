@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Cheio de Sal.mp3-6d4681bde7be1cc830f53b2e8244cbec.mp3str"
+
+[deps]
+
+source_file="res://Cheio de Sal.mp3"
+dest_files=[ "res://.import/Cheio de Sal.mp3-6d4681bde7be1cc830f53b2e8244cbec.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
