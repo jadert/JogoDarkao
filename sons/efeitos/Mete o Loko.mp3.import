@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Mete o Loko.mp3-0fffdb4a69ced8abcaaf1d9f6554d185.mp3str"
+
+[deps]
+
+source_file="res://sons/efeitos/Mete o Loko.mp3"
+dest_files=[ "res://.import/Mete o Loko.mp3-0fffdb4a69ced8abcaaf1d9f6554d185.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

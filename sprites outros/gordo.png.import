@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Treco.png-3b594760049cf829055985e5fb8ee8f4.stex"
+path="res://.import/gordo.png-ce477424d0628d00c4b60f5d4d7d6486.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Treco.png"
-dest_files=[ "res://.import/Treco.png-3b594760049cf829055985e5fb8ee8f4.stex" ]
+source_file="res://sprites outros/gordo.png"
+dest_files=[ "res://.import/gordo.png-ce477424d0628d00c4b60f5d4d7d6486.stex" ]
 
 [params]
 

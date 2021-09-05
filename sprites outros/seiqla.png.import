@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/TX Tileset Stone Ground.png-935c7d6a7cde095cc45b2fcaf59b83ff.stex"
+path="res://.import/seiqla.png-3c3390efc49bcda0e27f2fd06851cc4a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites cenario/TX Tileset Stone Ground.png"
-dest_files=[ "res://.import/TX Tileset Stone Ground.png-935c7d6a7cde095cc45b2fcaf59b83ff.stex" ]
+source_file="res://sprites outros/seiqla.png"
+dest_files=[ "res://.import/seiqla.png-3c3390efc49bcda0e27f2fd06851cc4a.stex" ]
 
 [params]
 

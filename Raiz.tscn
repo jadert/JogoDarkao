@@ -1,21 +1,20 @@
-[gd_scene load_steps=29 format=2]
+[gd_scene load_steps=28 format=2]
 
-[ext_resource path="res://sprites cenario/ChaoGrama.tres" type="TileSet" id=1]
-[ext_resource path="res://sprites cenario/Paredes.tres" type="TileSet" id=2]
+[ext_resource path="res://tileset/ChaoGrama.tres" type="TileSet" id=1]
+[ext_resource path="res://tileset/Paredes.tres" type="TileSet" id=2]
 [ext_resource path="res://sprites personagem/gordo.png" type="Texture" id=3]
-[ext_resource path="res://sprites cenario/KinematicBody2D.gd" type="Script" id=4]
-[ext_resource path="res://sprites cenario/Arvores.tres" type="TileSet" id=5]
-[ext_resource path="res://sprites cenario/Coisas.tres" type="TileSet" id=6]
-[ext_resource path="res://sprites cenario/PertoEstatua.gd" type="Script" id=7]
-[ext_resource path="res://sprites cenario/Camera2D.gd" type="Script" id=8]
-[ext_resource path="res://sprites personagem/botao.png" type="Texture" id=9]
-[ext_resource path="res://seiqla.png" type="Texture" id=10]
-[ext_resource path="res://Mete o Loko.mp3" type="AudioStream" id=11]
-[ext_resource path="res://Cheio de Sal.mp3" type="AudioStream" id=12]
-[ext_resource path="res://sprites cenario/ADDR.gd" type="Script" id=13]
-[ext_resource path="res://sprites cenario/SEIQLA.gd" type="Script" id=14]
-[ext_resource path="res://sprites cenario/MeteLoko.gd" type="Script" id=15]
-[ext_resource path="res://Treco.png" type="Texture" id=16]
+[ext_resource path="res://scripts/KinematicBody2D.gd" type="Script" id=4]
+[ext_resource path="res://tileset/Coisas.tres" type="TileSet" id=6]
+[ext_resource path="res://scripts/PertoEstatua.gd" type="Script" id=7]
+[ext_resource path="res://scripts/Camera2D.gd" type="Script" id=8]
+[ext_resource path="res://sprites outros/botao.png" type="Texture" id=9]
+[ext_resource path="res://sprites outros/seiqla.png" type="Texture" id=10]
+[ext_resource path="res://sons/efeitos/Mete o Loko.mp3" type="AudioStream" id=11]
+[ext_resource path="res://sons/musicas/Cheio de Sal.mp3" type="AudioStream" id=12]
+[ext_resource path="res://scripts/ADDR.gd" type="Script" id=13]
+[ext_resource path="res://scripts/SEIQLA.gd" type="Script" id=14]
+[ext_resource path="res://scripts/MeteLoko.gd" type="Script" id=15]
+[ext_resource path="res://sprites cenario/Cacto.png" type="Texture" id=16]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 8, 48, 24, 48, 24, 64, 8, 64 )
@@ -144,15 +143,11 @@ position = Vector2( 0.29985, -0.12674 )
 scale = Vector2( 0.83888, 0.863239 )
 polygon = PoolVector2Array( -34.3755, 4.02658, -32.5917, -7.56818, -27.8349, -17.0818, -23.0781, -25.109, -12.9698, -32.2442, -3.75345, -34.028, 13.7874, -33.7307, 24.4902, -27.1901, 31.0309, -17.3792, 35.1931, -11.1358, 35.4904, 2.24277, 31.3282, 12.9456, 26.5714, 23.9458, 17.0577, 31.6757, 12.5981, 33.7568, -9.99677, 33.7568, -17.7266, 29.5945, -29.0241, 18.2971, -33.7809, 10.2699 )
 
-[node name="Catao" type="TileMap" parent="."]
+[node name="Cacto" type="TileMap" parent="."]
 scale = Vector2( 3, 2.5 )
 tile_set = SubResource( 3 )
 format = 1
 tile_data = PoolIntArray( 4, 1, 0, 65537, 0, 0, 131072, 1, 0, 131076, 0, 0 )
-
-[node name="Arvores" type="TileMap" parent="."]
-tile_set = ExtResource( 5 )
-format = 1
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2( 511.674, 307.126 )
@@ -190,7 +185,7 @@ visible = false
 position = Vector2( 499.039, -343.416 )
 scale = Vector2( 0.196901, 0.194808 )
 frames = SubResource( 12 )
-frame = 3
+frame = 4
 playing = true
 
 [node name="Area2D" type="Area2D" parent="Estatua/Coisas"]

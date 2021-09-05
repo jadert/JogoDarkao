@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/x-button.png-34b20baaf5c808db10ac83063a8a424b.stex"
+path="res://.import/Cacto.png-656b29742faf171fa78c7de077e66f7a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites cenario/x-button.png"
-dest_files=[ "res://.import/x-button.png-34b20baaf5c808db10ac83063a8a424b.stex" ]
+source_file="res://sprites cenario/Cacto.png"
+dest_files=[ "res://.import/Cacto.png-656b29742faf171fa78c7de077e66f7a.stex" ]
 
 [params]
 
