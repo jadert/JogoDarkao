@@ -19,6 +19,12 @@ config/windows_native_icon="res://sprites outros/icon.ico"
 
 window/size/resizable=false
 
+[importer_defaults]
+
+mp3={
+"loop": false
+}
+
 [input]
 
 move_up={

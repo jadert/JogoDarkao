@@ -192,8 +192,8 @@ playing = true
 position = Vector2( 414.365, -165.463 )
 
 [node name="PertoEstatua" type="CollisionPolygon2D" parent="Estatua/Coisas/Area2D"]
-position = Vector2( -15.5711, -87.3628 )
-polygon = PoolVector2Array( 26.6354, 43.463, 27.9426, -30.7088, 44.3215, -58.427, 80.8593, -67.2465, 112.357, -59.687, 127.476, -31.9687, 129.635, 43.463 )
+position = Vector2( -15.5711, -90.0355 )
+polygon = PoolVector2Array( 26.6354, 43.463, 27.9426, -30.7088, 44.3215, -58.427, 80.8593, -67.2465, 112.357, -59.687, 127.476, -31.9687, 129.635, 43.463, 102.937, 42.2579, 78.1663, 42.4238, 77.583, 19.4037, 104.492, 20.2446, 102.046, -22.7777, 59.0833, -20.9593, 56.6106, 18.2037, 75.3195, 19.9855, 76.0641, 42.634 )
 
 [node name="MeteLoko" type="Node2D" parent="."]
 script = ExtResource( 15 )
@@ -255,5 +255,6 @@ autoplay = true
 [connection signal="timeout" from="MeteLoko/Timer" to="MeteLoko" method="_on_Timer_timeout"]
 [connection signal="body_entered" from="MeteLoko/Area2D" to="MeteLoko" method="_on_Area2D_body_entered"]
 [connection signal="body_entered" from="ADDR/Area2D" to="ADDR" method="_on_Area2D_body_entered"]
+[connection signal="body_exited" from="ADDR/Area2D" to="ADDR" method="_on_Area2D_body_exited"]
 [connection signal="body_entered" from="SEIQLA/Area2D" to="SEIQLA" method="_on_Area2D_body_entered"]
 [connection signal="body_exited" from="SEIQLA/Area2D" to="SEIQLA" method="_on_Area2D_body_exited"]
