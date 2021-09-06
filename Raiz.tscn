@@ -185,7 +185,7 @@ visible = false
 position = Vector2( 499.039, -343.416 )
 scale = Vector2( 0.196901, 0.194808 )
 frames = SubResource( 12 )
-frame = 4
+frame = 3
 playing = true
 
 [node name="Area2D" type="Area2D" parent="Estatua/Coisas"]
@@ -197,6 +197,9 @@ polygon = PoolVector2Array( 26.6354, 43.463, 27.9426, -30.7088, 44.3215, -58.427
 
 [node name="MeteLoko" type="Node2D" parent="."]
 script = ExtResource( 15 )
+
+[node name="Timer" type="Timer" parent="MeteLoko"]
+wait_time = 2.4
 
 [node name="Area2D" type="Area2D" parent="MeteLoko"]
 
@@ -249,6 +252,8 @@ autoplay = true
 
 [connection signal="body_entered" from="Estatua/Coisas/Area2D" to="Estatua" method="_on_Area2D_body_entered"]
 [connection signal="body_exited" from="Estatua/Coisas/Area2D" to="Estatua" method="_on_Area2D_body_exited"]
+[connection signal="timeout" from="MeteLoko/Timer" to="MeteLoko" method="_on_Timer_timeout"]
 [connection signal="body_entered" from="MeteLoko/Area2D" to="MeteLoko" method="_on_Area2D_body_entered"]
 [connection signal="body_entered" from="ADDR/Area2D" to="ADDR" method="_on_Area2D_body_entered"]
 [connection signal="body_entered" from="SEIQLA/Area2D" to="SEIQLA" method="_on_Area2D_body_entered"]
+[connection signal="body_exited" from="SEIQLA/Area2D" to="SEIQLA" method="_on_Area2D_body_exited"]
